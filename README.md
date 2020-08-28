@@ -7,8 +7,9 @@ This is for Android Material Design Components Practice.
 
 # All Material Design Components List
 
-
+<img height='320' weight='240' src="/ScreenShots/alertdialog1.png"/>
 
 # Alert Dialog
 - <a href='material.io/develop/android/components/dialogs'>Alert Dialog Documentation</a>
 
+<img height='320' weight='240' src="/ScreenShots/alertdialog2.png"/>
