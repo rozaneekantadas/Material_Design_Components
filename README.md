@@ -15,4 +15,4 @@ This is for Android Material Design Components Practice.
 <img height='320' weight='240' src="/ScreenShots/alertdialog1.png"/>
 
 
-<img height='320' weight='240' src="/ScreenShots/alertdialog3.png"/>  <img height='320' weight='240' src="/ScreenShots/alertdialog4.png"/>  <img height='320' weight='240' src="/ScreenShots/alertdialog6.png"/>
+<img height='320' weight='240' src="/ScreenShots/alertdialog3.png"/>  <img height='320' weight='240' src="/ScreenShots/alertdialog4.png"/>  <img height='320' weight='240' src="/ScreenShots/alertdialog5.png"/>
