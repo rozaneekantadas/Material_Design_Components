@@ -21,7 +21,7 @@
             android:layout_gravity="bottom"
             android:backgroundTint="@color/colorPrimary"
             app:navigationIcon="@drawable/ic_dehaze"
-            app:fabAlignmentMode="end"
+            app:fabAlignmentMode="center"
             app:fabAnimationMode="scale"
             />
 
@@ -33,6 +33,9 @@
             android:backgroundTint="@color/colorAccent"
             />
 
+        <include
+            layout="@layout/bottom_sheet_nav"
+            />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

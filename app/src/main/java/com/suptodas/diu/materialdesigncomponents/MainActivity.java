@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button alertDialog, fabButton, bottomAppBar;
+    Button alertDialog, fabButton, bottomAppBar, bottomSheet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,11 +19,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         alertDialog = findViewById(R.id.alertDialog);
         fabButton = findViewById(R.id.fabButton);
         bottomAppBar = findViewById(R.id.buttomAppBar);
+        bottomSheet = findViewById(R.id.bottomSheet);
 
         alertDialog.setOnClickListener(this);
         fabButton.setOnClickListener(this);
         bottomAppBar.setOnClickListener(this);
-
+        bottomSheet.setOnClickListener(this);
     }
 
     @Override
@@ -40,6 +41,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         if(view.getId() == R.id.buttomAppBar){
+            Intent intent = new Intent(MainActivity.this, BottomAppBarActivity.class);
+            startActivity(intent);
+        }
+
+        if(view.getId() == R.id.bottomSheet){
             Intent intent = new Intent(MainActivity.this, BottomAppBarActivity.class);
             startActivity(intent);
         }
