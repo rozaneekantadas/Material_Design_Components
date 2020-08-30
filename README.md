@@ -7,7 +7,7 @@ This is for Android Material Design Components Practice.
 
 # All Material Design Components List
 
-<img height='320' weight='240' src="/ScreenShots/fab2.png"/>
+<img height='320' weight='240' src="/ScreenShots/bottomappbar1.png"/>
 
 # Alert Dialog
 - <a href='material.io/develop/android/components/dialogs'>Alert Dialog Documentation</a>
@@ -23,3 +23,8 @@ This is for Android Material Design Components Practice.
 - Extended Fab: Icon + Text
 
 <img height='320' weight='240' src="/ScreenShots/fab1.png"/>
+
+# Bottom App Bar
+- <a href='https://material.io/develop/android/components/app-bars-bottom'>Bottom App Bar</a>
+
+<img height='320' weight='240' src="/ScreenShots/bottomappbar2.png"/>
