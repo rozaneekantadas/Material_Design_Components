@@ -28,3 +28,8 @@ This is for Android Material Design Components Practice.
 - <a href='https://material.io/develop/android/components/app-bars-bottom'>Bottom App Bar</a>
 
 <img height='320' weight='240' src="/ScreenShots/bottomappbar2.png"/>
+
+# Bottom Sheets
+- <a href='material.io/develop/android/components/sheets-bottom'>Bottom Sheets</a>
+
+<img height='320' weight='240' src="/ScreenShots/bottomappbar2.png"/>   <img height='320' weight='240' src="/ScreenShots/bottomsheet.png"/>
