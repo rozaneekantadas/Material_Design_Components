@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button alertDialog, fabButton;
+    Button alertDialog, fabButton, bottomAppBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,9 +18,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         alertDialog = findViewById(R.id.alertDialog);
         fabButton = findViewById(R.id.fabButton);
+        bottomAppBar = findViewById(R.id.buttomAppBar);
 
         alertDialog.setOnClickListener(this);
         fabButton.setOnClickListener(this);
+        bottomAppBar.setOnClickListener(this);
 
     }
 
@@ -37,6 +39,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         }
 
+        if(view.getId() == R.id.buttomAppBar){
+            Intent intent = new Intent(MainActivity.this, BottomAppBarActivity.class);
+            startActivity(intent);
+        }
 
     }
 }
