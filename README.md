@@ -37,6 +37,4 @@ This is for Android Material Design Components Practice.
 # Date Picker
 - <a href='https://material.io/develop/android/components/picker'>Date Picker</a>
 
-<img height='320' weight='240' src="/ScreenShots/datepicker2.png"/>   <img height='320' weight='240' src="/ScreenShots/datepicker3.png"/>
-
-<img height='320' weight='240' src="/ScreenShots/datepicker4.png"/>   <img height='320' weight='240' src="/ScreenShots/datepicker5.png"/>
+<img height='320' weight='240' src="/ScreenShots/datepicker2.png"/>   <img height='320' weight='240' src="/ScreenShots/datepicker3.png"/>   <img height='320' weight='240' src="/ScreenShots/datepicker4.png"/>
