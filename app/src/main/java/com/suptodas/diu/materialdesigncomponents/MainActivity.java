@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button alertDialog, fabButton, bottomAppBar, bottomSheet, datePicker;
+    Button alertDialog, fabButton, bottomAppBar, bottomSheet, datePicker, topAppBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,12 +21,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bottomAppBar = findViewById(R.id.buttomAppBar);
         bottomSheet = findViewById(R.id.bottomSheet);
         datePicker = findViewById(R.id.datePicker);
+        topAppBar = findViewById(R.id.topAppBar);
+
 
         alertDialog.setOnClickListener(this);
         fabButton.setOnClickListener(this);
         bottomAppBar.setOnClickListener(this);
         bottomSheet.setOnClickListener(this);
         datePicker.setOnClickListener(this);
+        topAppBar.setOnClickListener(this);
     }
 
     @Override
@@ -54,6 +57,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(view.getId() == R.id.datePicker){
             Intent intent = new Intent(MainActivity.this, DatePickerActivity.class);
+            startActivity(intent);
+        }
+
+        if(view.getId() == R.id.topAppBar){
+            Intent intent = new Intent(MainActivity.this, TopAppBarActivity.class);
             startActivity(intent);
         }
 
