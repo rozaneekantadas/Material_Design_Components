@@ -7,7 +7,7 @@ This is for Android Material Design Components Practice.
 
 # All Material Design Components List
 
-<img height='320' weight='240' src="/ScreenShots/bottomappbar1.png"/>
+<img height='320' weight='240' src="/ScreenShots/datepicker1.png"/>
 
 # Alert Dialog
 - <a href='material.io/develop/android/components/dialogs'>Alert Dialog Documentation</a>
@@ -33,3 +33,10 @@ This is for Android Material Design Components Practice.
 - <a href='material.io/develop/android/components/sheets-bottom'>Bottom Sheets</a>
 
 <img height='320' weight='240' src="/ScreenShots/bottomappbar2.png"/>   <img height='320' weight='240' src="/ScreenShots/bottomsheet.png"/>
+
+# Date Picker
+- <a href='https://material.io/develop/android/components/picker'>Date Picker</a>
+
+<img height='320' weight='240' src="/ScreenShots/datepicker2.png"/>   <img height='320' weight='240' src="/ScreenShots/datepicker3.png"/>
+
+<img height='320' weight='240' src="/ScreenShots/datepicker4.png"/>   <img height='320' weight='240' src="/ScreenShots/datepicker5.png"/>
