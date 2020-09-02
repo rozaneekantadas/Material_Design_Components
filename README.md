@@ -47,4 +47,4 @@ This is for Android Material Design Components Practice.
 # Text Fields
 - <a href='https://material.io/develop/android/components/text-fields'>Text Fields</a>
 
-<img height='320' weight='240' src="/ScreenShots/textfields.png"/>   <img height='320' weight='240' src="/ScreenShots/textfields.png"/>
+<img height='320' weight='240' src="/ScreenShots/textfields1.png"/>   <img height='320' weight='240' src="/ScreenShots/textfields.png"/>
