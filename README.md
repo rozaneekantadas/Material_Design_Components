@@ -7,7 +7,7 @@ This is for Android Material Design Components Practice.
 
 # All Material Design Components List
 
-<img height='320' weight='240' src="/ScreenShots/topappbar2.png"/>
+<img height='320' weight='240' src="/ScreenShots/textfields2.png"/>
 
 # Alert Dialog
 - <a href='material.io/develop/android/components/dialogs'>Alert Dialog Documentation</a>
@@ -43,3 +43,8 @@ This is for Android Material Design Components Practice.
 - <a href='material.io/develop/android/components/app-bars-top'>Top App Bar</a>
 
 <img height='320' weight='240' src="/ScreenShots/topappbar1.png"/>   <img height='320' weight='240' src="/ScreenShots/topappbar3.png"/>
+
+# Text Fields
+- <a href='https://material.io/develop/android/components/text-fields'>Text Fields</a>
+
+<img height='320' weight='240' src="/ScreenShots/textfields.png"/>   <img height='320' weight='240' src="/ScreenShots/textfields.png"/>
