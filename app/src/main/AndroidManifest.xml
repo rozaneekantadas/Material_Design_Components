@@ -9,9 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TopAppBarActivity"
+        <activity android:name=".TextFieldsActivity"
             android:theme="@style/CustomAppTheme"
             ></activity>
+        <activity
+            android:name=".TopAppBarActivity"
+            android:theme="@style/CustomAppTheme" />
         <activity
             android:name=".DatePickerActivity"
             android:theme="@style/CustomAppTheme" />

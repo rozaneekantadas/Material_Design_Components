@@ -74,4 +74,15 @@
         android:layout_marginTop="15dp"
         />
 
+    <Button
+        android:id="@+id/textField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text Fields"
+        android:background="@color/perpal"
+        android:textColor="#fff"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="15dp"
+        />
+
 </LinearLayout>
