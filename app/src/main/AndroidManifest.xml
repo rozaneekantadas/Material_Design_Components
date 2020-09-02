@@ -9,9 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TextFieldsActivity"
-            android:theme="@style/CustomAppTheme"
+        <activity android:name=".NavigationDrawerActivity"
+            android:theme="@style/CustomAppThemeNav"
             ></activity>
+        <activity
+            android:name=".TextFieldsActivity"
+            android:theme="@style/CustomAppTheme" />
         <activity
             android:name=".TopAppBarActivity"
             android:theme="@style/CustomAppTheme" />

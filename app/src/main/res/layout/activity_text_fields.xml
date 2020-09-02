@@ -57,7 +57,6 @@
         android:layout_marginTop="20dp"
         android:text="Log In"
         app:cornerRadius="20dp"
-        android:background="@color/perpal"
         android:textColor="#FFF"
         android:layout_marginHorizontal="80dp"
         />
