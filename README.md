@@ -7,7 +7,7 @@ This is for Android Material Design Components Practice.
 
 # All Material Design Components List
 
-<img height='320' weight='240' src="/ScreenShots/tablayout1.png"/>
+<img height='320' weight='240' src="/ScreenShots/tablayout1.png"/>   <img height='320' weight='240' src="/ScreenShots/bottomnav1.png"/>
 
 # Alert Dialog
 - <a href='material.io/develop/android/components/dialogs'>Alert Dialog Documentation</a>
@@ -58,3 +58,8 @@ This is for Android Material Design Components Practice.
 - <a href='https://material.io/develop/android/components/tabs'>Tab Layout</a>
 
 <img height='320' weight='240' src="/ScreenShots/tablayout2.png"/>   <img height='320' weight='240' src="/ScreenShots/tablayout3.png"/>
+
+# Bottom Navigation
+- <a href='https://material.io/develop/android/components/bottom-navigation'>Bottom Navigation</a>
+
+<img height='320' weight='240' src="/ScreenShots/bottomnav2.png"/>
