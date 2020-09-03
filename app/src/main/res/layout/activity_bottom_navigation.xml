@@ -17,7 +17,8 @@
         android:background="@color/colorPrimary"
         />
 
-    <FrameLayout
+    <fragment
+        android:name="com.suptodas.diu.materialdesigncomponents.FavouriteFragment"
         android:id="@+id/fragmentLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
