@@ -62,4 +62,4 @@ This is for Android Material Design Components Practice.
 # Bottom Navigation
 - <a href='https://material.io/develop/android/components/bottom-navigation'>Bottom Navigation</a>
 
-<img height='320' weight='240' src="/ScreenShots/bottomnav2.png"/>
+<img height='320' weight='240' src="/ScreenShots/bottomnav3.png"/>   <img height='320' weight='240' src="/ScreenShots/bottomnav4.png"/>    <img height='320' weight='240' src="/ScreenShots/bottomnav5.png"/>
