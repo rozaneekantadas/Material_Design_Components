@@ -1,110 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center|top"
-    android:padding="20dp"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/alertDialog"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Alert Dialog"
-        android:background="@color/perpal"
-        android:textColor="#fff"
-        android:layout_marginHorizontal="10dp"
-        />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        android:padding="20dp"
+        >
 
-    <Button
-        android:id="@+id/fabButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Floating Action Button"
-        android:background="@color/perpal"
-        android:textColor="#fff"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="15dp"
-        />
+        <Button
+            android:id="@+id/alertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog"
+            android:background="@color/perpal"
+            android:textColor="#fff"
+            android:layout_marginHorizontal="10dp"
+            />
 
-    <Button
-        android:id="@+id/buttomAppBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bottom App Bar"
-        android:background="@color/perpal"
-        android:textColor="#fff"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="15dp"
-        />
+        <Button
+            android:id="@+id/fabButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Floating Action Button"
+            android:background="@color/perpal"
+            android:textColor="#fff"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            />
 
-    <Button
-        android:id="@+id/bottomSheet"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bottom Sheet"
-        android:background="@color/perpal"
-        android:textColor="#fff"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="15dp"
-        />
+        <Button
+            android:id="@+id/buttomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bottom App Bar"
+            android:background="@color/perpal"
+            android:textColor="#fff"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            />
 
-    <Button
-        android:id="@+id/datePicker"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Date Picker"
-        android:background="@color/perpal"
-        android:textColor="#fff"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="15dp"
-        />
+        <Button
+            android:id="@+id/bottomSheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bottom Sheet"
+            android:background="@color/perpal"
+            android:textColor="#fff"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            />
 
-    <Button
-        android:id="@+id/topAppBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Top App Bar"
-        android:background="@color/perpal"
-        android:textColor="#fff"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="15dp"
-        />
+        <Button
+            android:id="@+id/datePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Picker"
+            android:background="@color/perpal"
+            android:textColor="#fff"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            />
 
-    <Button
-        android:id="@+id/textField"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Text Fields"
-        android:background="@color/perpal"
-        android:textColor="#fff"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="15dp"
-        />
+        <Button
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Top App Bar"
+            android:background="@color/perpal"
+            android:textColor="#fff"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            />
 
-    <Button
-        android:id="@+id/navDrawer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Navigation Drawer"
-        android:background="@color/perpal"
-        android:textColor="#fff"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="15dp"
-        />
+        <Button
+            android:id="@+id/textField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text Fields"
+            android:background="@color/perpal"
+            android:textColor="#fff"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            />
 
-    <Button
-        android:id="@+id/tabLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tab Layout"
-        android:background="@color/perpal"
-        android:textColor="#fff"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="15dp"
-        />
+        <Button
+            android:id="@+id/navDrawer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Navigation Drawer"
+            android:background="@color/perpal"
+            android:textColor="#fff"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tab Layout"
+            android:background="@color/perpal"
+            android:textColor="#fff"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:id="@+id/bottomNav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bottom Navigation"
+            android:background="@color/perpal"
+            android:textColor="#fff"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>
