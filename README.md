@@ -7,7 +7,7 @@ This is for Android Material Design Components Practice.
 
 # All Material Design Components List
 
-<img height='320' weight='240' src="/ScreenShots/tablayout1.png"/>   <img height='320' weight='240' src="/ScreenShots/chips1.png"/>
+<img height='320' weight='240' src="/ScreenShots/tablayout1.png"/>   <img height='320' weight='240' src="/ScreenShots/timepicker1.png"/>
 
 # Alert Dialog
 - <a href='material.io/develop/android/components/dialogs'>Alert Dialog Documentation</a>
@@ -69,3 +69,8 @@ This is for Android Material Design Components Practice.
 - <a href='material.io/develop/android/components/chips'>Chips</a>
 
 <img height='320' weight='240' src="/ScreenShots/chips2.png"/>
+
+# Time Picker
+- <a href='https://material.io/components/time-pickers'>Time Picker</a>
+
+<img height='320' weight='240' src="/ScreenShots/timepicker2.png"/>   <img height='320' weight='240' src="/ScreenShots/timepicker3.png"/>    <img height='320' weight='240' src="/ScreenShots/timepicker4.png"/>
