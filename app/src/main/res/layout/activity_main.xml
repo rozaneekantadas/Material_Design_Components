@@ -134,6 +134,17 @@
             android:layout_marginTop="15dp"
             />
 
+        <Button
+            android:id="@+id/timePickerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time Picker"
+            android:background="@color/perpal"
+            android:textColor="#fff"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            />
+
     </LinearLayout>
 
 </ScrollView>

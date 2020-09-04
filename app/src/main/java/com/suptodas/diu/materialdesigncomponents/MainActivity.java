@@ -9,7 +9,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button alertDialog, fabButton, bottomAppBar, bottomSheet, datePicker, topAppBar, textField, navigationDrawer, tabLayout, bottomNav, chips;
+    Button alertDialog, fabButton, bottomAppBar, bottomSheet, datePicker,
+            topAppBar, textField, navigationDrawer, tabLayout, bottomNav, chips, timePicker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tabLayout = findViewById(R.id.tabLayout);
         bottomNav = findViewById(R.id.bottomNav);
         chips = findViewById(R.id.chipsBtn);
+        timePicker = findViewById(R.id.timePickerBtn);
 
 
         alertDialog.setOnClickListener(this);
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tabLayout.setOnClickListener(this);
         bottomNav.setOnClickListener(this);
         chips.setOnClickListener(this);
+        timePicker.setOnClickListener(this);
     }
 
     @Override
@@ -97,6 +100,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(view.getId() == R.id.chipsBtn){
             Intent intent = new Intent(MainActivity.this, ChipsActivity.class);
+            startActivity(intent);
+        }
+
+        if(view.getId() == R.id.timePickerBtn){
+            Intent intent = new Intent(MainActivity.this, TimePickerActivity.class);
             startActivity(intent);
         }
     }
