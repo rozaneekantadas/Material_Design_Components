@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BottomNavigationActivity"
+        <activity android:name=".ChipsActivity"
             android:theme="@style/CustomAppTheme"
-            ></activity>
+            >
+        </activity>
+        <activity
+            android:name=".BottomNavigationActivity"
+            android:theme="@style/CustomAppTheme" />
         <activity
             android:name=".TabLayoutActivity"
             android:theme="@style/CustomAppTheme" />
