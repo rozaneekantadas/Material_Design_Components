@@ -7,7 +7,12 @@ This is for Android Material Design Components Practice.
 
 # All Material Design Components List
 
-<img height='320' weight='240' src="/ScreenShots/tablayout1.png"/>   <img height='320' weight='240' src="/ScreenShots/timepicker1.png"/>
+<img height='320' weight='240' src="/ScreenShots/snackbar1.png"/>   <img height='320' weight='240' src="/ScreenShots/timepicker1.png"/>
+
+# Snack Bar
+- <a href='https://material.io/develop/android/components/snackbars'>Snack Bar</a>
+
+<img height='320' weight='240' src="/ScreenShots/snackbar2.png"/>    <img height='320' weight='240' src="/ScreenShots/snackbar3.png"/>
 
 # Alert Dialog
 - <a href='material.io/develop/android/components/dialogs'>Alert Dialog Documentation</a>
