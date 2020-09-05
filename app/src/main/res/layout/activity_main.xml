@@ -15,6 +15,16 @@
         >
 
         <Button
+            android:id="@+id/snackBarBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Snack Bar"
+            android:background="@color/perpal"
+            android:textColor="#fff"
+            android:layout_marginHorizontal="10dp"
+            />
+
+        <Button
             android:id="@+id/alertDialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -22,6 +32,7 @@
             android:background="@color/perpal"
             android:textColor="#fff"
             android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
             />
 
         <Button
